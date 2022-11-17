@@ -865,18 +865,18 @@ textarea::placeholder{
 
 .label-checkbox{
     display: flex;
-    align-items: center;   
+    align-items: center;      
 }
 
 .icon-checkbox{
-   display: inline-block;
+   display: block;
    width: 16px;
    height: 15px;
    margin-right: 7px;
-   background-image: url("../images/Vector.svg");
+   background-image: url("../images/Vector.svg");  
 }
 
-.label-checkbox:checked ~ .icon-checkbox{
+.input-checkbox:checked  ~ .icon-checkbox{
     background-color: var(--blue-color);
     background-image: url("../images/icon\ check\ .svg");
     background-size: contain;
